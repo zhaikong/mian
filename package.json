@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
+    "dev": "node api.js && node index.js",
+    "start": "node api.js && node index.js"
   },
   "dependencies": {
     "axios": "latest",
